@@ -194,43 +194,40 @@ a:hover {
         text-align: center;
     }
     .space-text1 {
-        font-size: 7.5rem;       
+        font-size: 120px;       
     }
     .space-text3 {
-        font-size: 4.5rem;
+        font-size: 72px;
     }
     .space-text2, .feature-text1 {
-        font-size: 5rem;
+        font-size: 80px;
     }
     .download-button {
-        font-size: 4rem;
+        font-size: 64px;
     }
     .action-text {
-        font-size: 6.5rem;
+        font-size: 104px;
     }
     .feature-image {
         width: 70%;       
     }     
     .feature-text2, .about-p, .about-p2, .contact-p {
-        font-size: 4.2rem;
+        font-size: 68px;
     }
-    .partner-text .about-head, .contact-h {       
-        font-size: 5.5rem;       
+    .partner-text, .about-head, .contact-h {       
+        font-size: 88px;       
     }
     .partner-image {
         width: 35%;        
-    }
-    /* .features-about {
-
-    }  */
+    }    
     .contact-text {
-        padding: 5% 5%;
+        padding: 0;
     }   
     #about {
         padding: 2% 5%;
     }
     .glyphicon {
-        font-size: 8rem;
+        font-size: 120px;
     }
    
 }
