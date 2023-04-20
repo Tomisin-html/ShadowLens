@@ -187,9 +187,9 @@ a:hover {
 }
 
 
-/* media query 641 */
+/* media query 725 */
 
-@media (max-width:641px) {
+@media (max-width:725px) {
     .space {
         text-align: center;
     }
