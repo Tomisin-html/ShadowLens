@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Duru Sans', sans-serif;
 }
 p {
-    color: #676764;
+    color: #80807c;
     font-size: 1.2rem;
 }
 
@@ -123,28 +123,6 @@ img {
 .contact-text {
     padding: 7% 20%;
 }
-.row-container {
-    display: flex;
-    flex-direction: row;
-    margin-left: 35%;
-}
-
-    
-  /* Style the submit button */
-input[type=submit] {
-    background-color: #fff;
-    color: #000;
-    border: none;
-    font-weight: bold;
-}
-input[type=text] {
-    background-color: #252524;
-    color: #676764;
-    border: none;
-    font-weight: bold;
-}
-  
-  
 
 /* footer */
 
@@ -165,54 +143,91 @@ a:hover {
     color: #b0b0ae;
 }
 
-/* media query */
 
-@media (max-width:1140px) {
-    .row-container {
-        margin-left: 30%;
+
+/* media query 1007*/
+
+
+
+@media (max-width:1007px) {
+    .space {
+        text-align: center;
     }
+    .space-text1 {
+        font-size: 5.5rem;       
+    }
+    .space-text3 {
+        font-size: 2.5rem;
+    }
+    .space-text2 {
+        font-size: 3rem;
+    }
+    .download-button {
+        font-size: 2rem;
+    }
+    .action-text {
+        font-size: 4.5rem;
+    }
+    .feature-image {
+        width: 50%;       
+    }
+    .feature-text1 {
+        font-size: 3rem;
+    }
+    .feature-text2, .about-p, .about-p2, .contact-p {
+        font-size: 2.2rem;
+    }
+    .partner-text, .about-head, .contact-h {       
+        font-size: 3.5rem;       
+    }
+    .partner-image {
+        width: 15%;        
+    }     
+     
 }
 
-@media (max-width:960px) {
-    .row-container {
-        margin-left: 27%;
-    }
-}
 
-@media (max-width:860px) {
-    .row-container {
-        margin-left: 25%;
+/* media query 641 */
+
+@media (max-width:641px) {
+    .space {
+        text-align: center;
     }
+    .space-text1 {
+        font-size: 6.5rem;       
+    }
+    .space-text3 {
+        font-size: 3.5rem;
+    }
+    .space-text2, .feature-text1 {
+        font-size: 4rem;
+    }
+    .download-button {
+        font-size: 3rem;
+    }
+    .action-text {
+        font-size: 5.5rem;
+    }
+    .feature-image {
+        width: 60%;       
+    }     
+    .feature-text2, .about-p, .about-p2, .contact-p {
+        font-size: 3.2rem;
+    }
+    .partner-text .about-head, .contact-h {       
+        font-size: 4.5rem;       
+    }
+    .partner-image {
+        width: 25%;        
+    }
+    /* .features-about {
+
+    }  */
     .contact-text {
-        padding: 7% 10%;
+        padding: 5% 10%;
+    }   
+    #about, {
+        padding: 2% 5%;
     }
+   
 }
-
-@media (max-width:800px) {
-    .row-container {
-        margin-left: 22%;
-    }
-}
-
-@media (max-width:720px) {
-    .row-container {
-        margin-left: 19%;
-    }
-}
-
-@media (max-width:670px) {
-    .row-container {
-        margin-left: 16%;
-    }
-}
-
-@media (max-width:580px) {
-    .row-container {
-        margin-left: 13%;
-    }
-    .contact-text {
-        padding: 7% 10%;
-    }
-}
-font-family: 'Baskervville', serif;
-font-family: 'Duru Sans', sans-serif;
