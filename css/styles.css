@@ -187,9 +187,9 @@ a:hover {
 }
 
 
-/* media query 725 */
+/* media query 840 */
 
-@media (max-width:725px) {
+@media (max-width:840px) {
     .space {
         text-align: center;
     }
@@ -224,7 +224,7 @@ a:hover {
         padding: 0;
     }   
     #about {
-        padding: 2% 5%;
+        padding: 2% 3%;
     }
     .glyphicon {
         font-size: 120px;
